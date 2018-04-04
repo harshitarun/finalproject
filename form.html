@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<head>
+	<title>Placement Portal</title>
+    <base href="./">
+    <link rel="shortcut icon" href="favicon.ico" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap, jQuery and other standard library files - online links -->
+<!--     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+ -->
+    <!--CAUTION: DO NOT EDIT THESE FILES. Offile Version of the above files -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+    
+    <!-- Common Files)-->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+<style>
+    h4
+    {
+        color: #33CC33;
+        text-indent: 10%;
+    }
+</style>
+
+</head>
+<body>
+	<div class="navbar-fixed-top">
+		<div class="row mainbanner">
+                <div class="col-sm-1"><a href="./"><img src="pics/nie.jpg" class="nielogo"></a></div>
+                <div class="col-sm-4 niename">NIE Placement Portal</div>
+                <div class="col-sm-3"></div>
+                <div class="col-sm-4 niename1">An Initiative By Students of <br> CSE 2014- 2018 Batch</div> 
+        </div>            
+       <nav class="navbar navbar-inverse" style="border-radius:0">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#myNavbar" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span> 
+                    </button>
+                        <a class="navbar-brand" href="index.html" target="_self"><span class="glyphicon glyphicon-home"></span></a>
+                </div>
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav">
+                        <li><a href="#">Companies</a></li>
+                        <li><a href="http://www.nie.ac.in/">NIE</a></li> 
+                        <li><a href="#">Feedback</a></li> 
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        
+    </div><br><br><br><br><br><br>
+    <div>
+    <h3><center><strong> Fill the Following Details in the form </strong></center></h3>
+    <h4><b>PERSONAL INFORMATION</b></h4>
+            <form class="form-horizontal" action="/action_page.php">
+                <div class="form-group">
+                    <label class="control-label col-sm-2" for="name">Full Name:</label>
+                            <div class="col-sm-8">
+                            <input type="name" class="form-control" id="name" placeholder="Enter full name">
+                            </div>
+                </div>
+            <div class="form-group">
+                    <label class="control-label col-sm-2" for="date">Date of Birth(dd-mm-yyyy):</label>
+                            <div class="col-sm-8"> 
+                                    <input type="date" class="form-control" id="date" placeholder="Enter date of birth">
+                            </div>
+            </div>
+            <div class="form-group">
+                    <label class="control-label col-sm-2" for="USN">USN:</label>
+                            <div class="col-sm-8"> 
+                                    <input type="rollno" class="form-control" id="usn" placeholder="Enter USN">
+                            </div>
+            </div>
+            <div class="form-group">
+                    <label class="control-label col-sm-2" for="Gender">Gender:</label>
+                            <div class="col-sm-8"> 
+                                    <input type="radio" id="genderChoice1" name="gender" value="male">
+                                    <label for="genderChoice1">Male</label>
+                                    <br>
+                                    <input type="radio" id="genderChoice2" name="gender" value="male">
+                                    <label for="genderChoice2">Female</label>
+                            </div>
+            </div>
+            <div class="form-group">
+                    <label class="control-label col-sm-2" for="Category">Category:</label>
+                            <div class="col-sm-8"> 
+                                    <input type="radio" id="categoryChoice1" name="category" value="General">
+                                    <label for="categoryChoice1">General</label>
+                                    <br>
+                                    <input type="radio" id="categoryChoice2" name="category" value="OBC">
+                                    <label for="categoryChoice2">OBC</label>
+                                    <br>
+                                    <input type="radio" id="categoryChoice3" name="category" value="SC">
+                                    <label for="categoryChoice3">SC</label>
+                                    <br>
+                                    <input type="radio" id="categoryChoice4" name="category" value="ST">
+                                    <label for="categoryChoice4">ST</label>
+                            </div>
+            </div>
+            <div class="form-group">
+                    <label class="control-label col-sm-2" for="e-mail">E-mail:</label>
+                            <div class="col-sm-8"> 
+                                    <input type="email" class="form-control" id="email" placeholder="Enter e-mail">
+                            </div>
+            </div>
+            <div class="form-group">
+                    <label class="control-label col-sm-2" for="phno">Phone No:</label>
+                            <div class="col-sm-8"> 
+                                    <input type="phno" class="form-control" id="phno" placeholder="Enter Phone No">
+                            </div>
+            </div>
+            <div class="form-group">
+                    <label class="control-label col-sm-2" for="addr">Address:</label>
+                            <div class="col-sm-8"> 
+                                    <input type="addr" class="form-control" id="addr" placeholder="Enter Address">
+                            </div>
+            </div>
+            <h4><b>Academic Details</b></h4>
+            <h3><b><center>10th STD DETAILS</center></b></h3>
+            <div class="form-group">
+                    <label class="control-label col-sm-2" for="addr">Institution Attended:</label>
+                            <div class="col-sm-8"> 
+                                    <input type="inst1" class="form-control" id="inst1" placeholder="Enter Institution Attended">
+                            </div>
+            </div>
+            <div class="form-group">
+                    <label class="control-label col-sm-2" for="addr">Institution Board:</label>
+                            <div class="col-sm-8"> 
+                                    <input type="board1" class="form-control" id="board1" placeholder="Enter Institution Board">
+                            </div>
+            </div>
+            <div class="form-group">
+                    <label class="control-label col-sm-2" for="addr">10th Percentage:</label>
+                            <div class="col-sm-8"> 
+                                    <input type="per1" class="form-control" id="per1" placeholder="Enter 10th Percentage">
+                            </div>
+            </div>
+            <div class="form-group">
+                    <label class="control-label col-sm-2" for="addr">Passing Year:</label>
+                            <div class="col-sm-8"> 
+                                    <input type="year" class="form-control" id="year1" placeholder="Enter Passing Year">
+                            </div>
+            </div>
+            <h3><b><center>12th STD DETAILS</center></b></h3>
+            <div class="form-group">
+                    <label class="control-label col-sm-2" for="addr">Institution Attended:</label>
+                            <div class="col-sm-8"> 
+                                    <input type="inst2" class="form-control" id="inst2" placeholder="Enter Institution Attended">
+                            </div>
+            </div>
+            <div class="form-group">
+                    <label class="control-label col-sm-2" for="addr">Institution Board:</label>
+                            <div class="col-sm-8"> 
+                                    <input type="board2" class="form-control" id="board2" placeholder="Enter Institution Board">
+                            </div>
+            </div>
+            <div class="form-group">
+                    <label class="control-label col-sm-2" for="addr">12th Percentage:</label>
+                            <div class="col-sm-8"> 
+                                    <input type="per2" class="form-control" id="per2" placeholder="Enter 12th Percentage">
+                            </div>
+            </div>
+            <div class="form-group">
+                    <label class="control-label col-sm-2" for="addr">Passing Year:</label>
+                            <div class="col-sm-8"> 
+                                    <input type="year" class="form-control" id="year2" placeholder="Enter Passing Year">
+                            </div>
+            </div>
+             <div class="form-group">
+                    <label class="control-label col-sm-2" for="addr">CET/COMEDK/DCET Rank:</label>
+                            <div class="col-sm-8"> 
+                                    <input type="year" class="form-control" id="year2" placeholder="CET/COMEDK/DCET Rank">
+                            </div>
+            </div>
+            <h3><b><center>DIPLOMA DETAILS</center></b></h3>
+            <div class="form-group">
+                    <label class="control-label col-sm-2" for="addr">Institution Attended:</label>
+                            <div class="col-sm-8"> 
+                                    <input type="inst2" class="form-control" id="inst2" placeholder="Enter Institution Attended">
+                            </div>
+            </div>
+            <div class="form-group">
+                    <label class="control-label col-sm-2" for="addr">Institution Board:</label>
+                            <div class="col-sm-8"> 
+                                    <input type="board2" class="form-control" id="board2" placeholder="Enter Institution Board">
+                            </div>
+            </div>
+            <div class="form-group">
+                    <label class="control-label col-sm-2" for="addr">Diploma Percentage:</label>
+                            <div class="col-sm-8"> 
+                                    <input type="per2" class="form-control" id="per2" placeholder="Enter Diploma Percentage">
+                            </div>
+            </div>
+            <div class="form-group">
+                    <label class="control-label col-sm-2" for="addr">Passing Year:</label>
+                            <div class="col-sm-8"> 
+                                    <input type="year" class="form-control" id="year2" placeholder="Enter Passing Year">
+                            </div>
+            </div>
+             <div class="form-group">
+                    <label class="control-label col-sm-2" for="addr">Diploma CET Rank:</label>
+                            <div class="col-sm-8"> 
+                                    <input type="year" class="form-control" id="year2" placeholder="Diploma CET Rank:">
+                            </div>
+            </div>
+            <h3><b><center>ENGINEERING DETAILS</center></b></h3>
+            <div class="form-group">
+                    <label class="control-label col-sm-2" for="addr">1st Sem SGPA:</label>
+                            <div class="col-sm-2"> 
+                                    <input type="sem1" class="form-control" id="sem1" placeholder="Enter 1st Sem SGPA">
+                            </div>
+                            <label class="control-label col-sm-2" for="addr">1st Sem Percentage:</label>
+                            <div class="col-sm-2"> 
+                                    <input type="sem1per" class="form-control" id="sem1per" placeholder="Enter 1st Sem Percentage">
+                            </div>
+            </div>
+            <div class="form-group">
+                    <label class="control-label col-sm-2" for="addr">2nd Sem SGPA:</label>
+                            <div class="col-sm-2"> 
+                                    <input type="sem2" class="form-control" id="sem2" placeholder="Enter 2nd Sem SGPA">
+                            </div>
+                            <label class="control-label col-sm-2" for="addr">2nd Sem Percentage:</label>
+                            <div class="col-sm-2"> 
+                                    <input type="sem2per" class="form-control" id="sem2per" placeholder="Enter 2nd Sem Percentage">
+                            </div>
+            </div>
+            <div class="form-group">
+                    <label class="control-label col-sm-2" for="addr">3rd Sem SGPA:</label>
+                            <div class="col-sm-2"> 
+                                    <input type="sem3" class="form-control" id="sem3" placeholder="Enter 3rd Sem SGPA">
+                            </div>
+                            <label class="control-label col-sm-2" for="addr">3rd Sem Percentage:</label>
+                            <div class="col-sm-2"> 
+                                    <input type="sem3per" class="form-control" id="sem3per" placeholder="Enter 3rd Sem Percentage">
+                            </div>
+            </div>
+            <div class="form-group">
+                    <label class="control-label col-sm-2" for="addr">4th Sem SGPA:</label>
+                            <div class="col-sm-2"> 
+                                    <input type="sem4" class="form-control" id="sem4" placeholder="Enter 4th Sem SGPA">
+                            </div>
+                            <label class="control-label col-sm-2" for="addr">1st Sem Percentage:</label>
+                            <div class="col-sm-2"> 
+                                    <input type="sem4per" class="form-control" id="sem4per" placeholder="Enter 4th Sem Percentage">
+                            </div>
+            </div>
+            <div class="form-group">
+                    <label class="control-label col-sm-2" for="addr">5th Sem SGPA:</label>
+                            <div class="col-sm-2"> 
+                                    <input type="sem5" class="form-control" id="sem5" placeholder="Enter 5th Sem SGPA">
+                            </div>
+                            <label class="control-label col-sm-2" for="addr">5th Sem Percentage:</label>
+                            <div class="col-sm-2"> 
+                                    <input type="sem5per" class="form-control" id="sem5per" placeholder="Enter 5th Sem Percentage">
+                            </div>
+            </div>
+            <div class="form-group">
+                    <label class="control-label col-sm-2" for="addr">6th Sem SGPA:</label>
+                            <div class="col-sm-2"> 
+                                    <input type="sem6" class="form-control" id="sem6" placeholder="Enter 6th Sem SGPA">
+                            </div>
+                            <label class="control-label col-sm-2" for="addr">6th Sem Percentage:</label>
+                            <div class="col-sm-2"> 
+                                    <input type="sem6per" class="form-control" id="sem6per" placeholder="Enter 6th Sem Percentage">
+                            </div>
+            </div>
+            <div class="form-group">
+                    <label class="control-label col-sm-2" for="addr">7th Sem SGPA:</label>
+                            <div class="col-sm-2"> 
+                                    <input type="sem7" class="form-control" id="sem7" placeholder="Enter 7th Sem SGPA">
+                            </div>
+                            <label class="control-label col-sm-2" for="addr">7th Sem Percentage:</label>
+                            <div class="col-sm-2"> 
+                                    <input type="sem7per" class="form-control" id="sem7per" placeholder="Enter 7th Sem Percentage">
+                            </div>
+            </div>
+            <div class="form-group">
+                    <label class="control-label col-sm-2" for="addr">CGPA:</label>
+                            <div class="col-sm-2"> 
+                                    <input type="cgpa" class="form-control" id="cgpa" placeholder="Enter CGPA">
+                            </div>
+                            <label class="control-label col-sm-2" for="addr">CGPA Percentage:</label>
+                            <div class="col-sm-2"> 
+                                    <input type="cgpaper" class="form-control" id="cgpaper" placeholder="Enter CGPA Percentage">
+                            </div>
+            </div>
+            <div class="form-group">
+                    <label class="control-label col-sm-2" for="addr">Credits Earned:</label>
+                            <div class="col-sm-8"> 
+                                    <input type="credits" class="form-control" id="credits" placeholder="Enter Credits Earned">
+                            </div>
+            </div>
+            <div class="form-group">
+                    <label class="control-label col-sm-2" for="addr">NO. OF SUBJECTS CLEARED IN MUTE:</label>
+                            <div class="col-sm-8"> 
+                                    <input type="mute" class="form-control" id="mute" placeholder="Enter NO. OF SUBJECTS CLEARED IN MUTE">
+                            </div>
+            </div>
+            <div class="form-group">
+                    <label class="control-label col-sm-2" for="addr">Current Arrears:</label>
+                            <div class="col-sm-8"> 
+                                    <input type="cuar" class="form-control" id="cuar" placeholder="Enter Current Arrears">
+                            </div>
+            </div>
+            <div class="form-group">
+                    <label class="control-label col-sm-2" for="addr">Cleared Arrears:</label>
+                            <div class="col-sm-8"> 
+                                    <input type="clar" class="form-control" id="clar" placeholder="Enter Cleared Arrears">
+                            </div>
+            </div>
+           
+
+    </div>       

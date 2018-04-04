@@ -1,0 +1,102 @@
+.mainbanner{
+        padding: 10px;
+        opacity: 0.5;
+        background: white;
+    }
+    .mainbanner:hover{
+        opacity: 1;
+    }
+    .niename{
+        font-size: 35px;
+        color: black;
+        text-align: center;
+    }
+    .nielogo{
+        margin-top: 3px;
+        margin-left: 41%;
+        height: 50px;
+    }
+    .niename1{
+        margin-top: 5px;
+        font-size: 15px;
+        color: black;
+        text-align: center;
+    }
+    .navbar{
+    opacity: 0.6;
+    }
+    .navbar:hover{
+    opacity: 1;
+    }
+   /* .navbar-inverse
+    {
+        background: silver;
+    }
+*/
+    .div1{
+    text-align: center;
+    color: white;
+    background: #33CC33;
+    padding: 60px 40px 70px 40px;
+    font-size: 16px;
+    overflow-x: auto;
+}
+.profile img{
+    width: 250px;
+    height: 250px;
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-right: 50%;
+}
+.pics img{
+    width: 20px;
+    height: 20px;
+    margin: 0 auto;
+}
+.div2{
+    text-align: center;
+    background-color: white;
+    padding: 10px 40px 70px 40px;
+    font-size: 16px;
+    overflow-x: auto;
+}
+/* .carousel-inner > .item > img, .carousel-inner > .item > a > img , #myCarousel {
+        width: 100%;
+    }*/
+    .div3{
+    text-align: center;
+    color: black;
+    background:silver;
+    padding: 60px 40px 70px 40px;
+    overflow-x: auto;
+}
+
+     /*@media screen and (max-width: 760px) {
+        .bigscreen { display: none; }
+        .smallscreen { display: block; } 
+        .dcrlogo { margin: -1.5% 5% 2% 2%; }
+        .dcrname { font-size: 25px; }
+    }*/
+.frontpic
+{
+    margin-left: 15%;
+    width: 75%;
+}
+.navbar-right img
+{
+    width: 30px;
+    height: 30px;
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%;
+}
+ .footer{
+    text-align: center;
+    color: white;
+    background: black;
+    padding: 30px 20px 40px 40px;
+    font-size: 16px;
+    overflow-x: auto;
+}
