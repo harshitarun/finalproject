@@ -1,0 +1,73 @@
+.sidenav1 
+       {
+   		 height: 100%;
+    	 width: 55px;
+    	 position: fixed;
+    	 z-index: 1;
+    	 top: 0;
+         left: 0;
+         background-color: #111;
+         overflow-x: hidden;
+         color: white;
+        }
+.div1
+		{
+			background-color:brown;
+			 margin-left:45px;
+			color: white;
+			height: 40px;
+			width: 160px;
+			text-align: center;
+			padding: 20px;
+			margin-bottom:0px;
+		}
+.div2
+		{
+			background-color: DarkOrange;
+			width: 100%;
+			height: 240px;
+			padding: 1px;
+		}		
+.div3
+		{
+			margin-left: 70px;
+			padding: 10px;
+		}		
+.div4
+		{
+			margin-left: 70px;
+			padding: 100px;
+			height: 100px;
+			width: 100%;
+			padding: 20px;
+		}
+
+div.desc {
+    		padding-top: 125px;
+    		text-align: center;
+    		color: black;
+		}
+div.desc1 {
+    		text-align: center;
+    		color: black;
+		  }
+
+.rcorners4 {
+			float: left;
+    		border-radius: 25px;
+    		background: url(ashu.jpg);
+    		background-position: relative;
+    		background-repeat: no-repeat;
+    		background-color: white; 
+    		width: 160px;
+    		height: 200px;
+    		color: black;
+    		background-size: 160px,75px; 
+    		margin-left: 100px;
+    		margin-top: 20px;
+           }
+		
+
+
+
+		
