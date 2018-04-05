@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Placement Portal</title>
+	<link rel="shortcut icon" href="pics/nie.jpg" />
+	<style>
+	body {margin:0;}
+	.header
+	{
+		opacity: 0.5;
+		
+	}
+	.header img
+	{
+		position: fixed;
+        float: left;
+		top: 10px;
+        margin-left: 3%;
+        height: 50px;
+	}
+	
+	.header h1
+	{
+		/*float: right;*/
+        /*font-size: 20px;*/
+        position: fixed;
+        color: black;
+        text-align: center;
+        right: 35%;
+	}
+	.header:hover
+	{
+        opacity: 1;
+        /* background-color: #111;*/
+	}
+	ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top:75px;
+    width: 100%;
+}
+ul:hover
+{
+	background-color: #111;
+    opacity: 1;
+}
+li {
+    float: right;
+}
+
+li a {
+	opacity: 0.5;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+    opacity: 1;
+}
+input[type=text],textarea,select{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.company {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+	</style>
+</head>
+<body>
+	<div class="header">
+		<img src="pics/nie.jpg"> 
+		<div>	
+			<h1>NIE PLACEMENT PORTAL</h1>
+	</div>		
+	</div>
+	<br><br><br><br><br><br>
+	<div>
+            <ul>
+            	<li><a href="#home">Home</a></li>
+  				<li><a href="#home">Home</a></li>
+  				<li><a href="#news">News</a></li>
+  				<li><a href="#contact">Contact</a></li>
+  				<li><a href="#about">About</a></li>
+			</ul>        
+    </div>  
+    <div>
+    	 <h2><center><strong> Fill the Following Company Details in the form </strong></center></h2>
+    </div>
+    <div class="company">
+    	<form action="/action_page.php">
+    		<h2>Company Details</h2>
+    			<label for="cname"><b>Company Name:<b></label>
+    				<input type="text" id="cname" name="companyname" placeholder="Company Name..">
+    			<label for="cname"><b>About the Company:<b></label>
+    				<textarea id="about" name="about" placeholder="About the Company.." style="height:200px"></textarea>
+    		<h2>Job Details</h2>
+    			<label for="cname"><b>Position:<b></label>
+    				<input type="text" id="cname" name="companyname" placeholder="Position..">
+    			<label for="cname"><b>Job Location:<b></label>
+    				<input type="text" id="cname" name="companyname" placeholder="Job Location..">
+    			<label for="cname"><b>Salary(CTC):<b></label>
+    				<input type="text" id="cname" name="companyname" placeholder="Salary..">
+    		<h2>Job Eligibilty</h2>
+    			<label for="branch">Branch</label>
+    				<select id="branch" name="branch" multiple>
+    					<option value="All">All</option>
+      					<option value="Computer Science And Engineering">Computer Science And Engineering</option>
+      					<option value="Information Science">Information Science</option>
+      					<option value="Electronics and Communication">Electronics And Communication</option>
+      					<option value="Electronics and Electrical">Electronics and Electrical</option>
+      					<option value="Mechanical Engineering">Mechanical Enineering</option>
+      					<option value="Inustrial Production Engineering">Industrial Production Engineering</option>
+      					<option value="Civil Engineering">Civil Engineering</option>
+      					<option value="M-Tech">M-Tech</option>
+    		</select>
+    		<label for="10per"><b>10th Percentage:<b></label>
+    			<input type="text" id="10per" name="10per placeholder="10th Percentage..">
+    		<label for="12per"><b>12th Percentage:<b></label>
+    			<input type="text" id="12per" name="12per placeholder="12th Percentage..">
+    		<label for="history">History(Cleared/Uncleared)</label>
+    			<select id="history" name="history">
+    				<option value="yes">Yes</option>
+					<option value="no">No</option>
+    			</select>	
+    		<label for="cgpa"><b>CGPA:<b></label>
+    			<input type="text" id="cgpa" name="cgpa" placeholder="CGPA..">
+    		<input type="submit" value="Submit">
+  		</form>
+    </div>
+
+</body>
+</html>
+

@@ -2,7 +2,7 @@
 <head>
 	<title>Placement Portal</title>
     <base href="./">
-    <link rel="shortcut icon" href="favicon.ico" />
+    <link rel="shortcut icon" href="pics/nie.jpg" />
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -22,13 +22,18 @@
 
     
     <!-- Common Files)-->
-    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
 <style>
     h4
     {
         color: #33CC33;
         text-indent: 10%;
     }
+    .btn-default {
+      background: #33CC33;
+      color: white;
+      width:100%;
+   }
 </style>
 
 </head>
@@ -60,7 +65,7 @@
         </nav>
         
     </div><br><br><br><br><br><br>
-    <div>
+    <div class="student">
     <h3><center><strong> Fill the Following Details in the form </strong></center></h3>
     <h4><b>PERSONAL INFORMATION</b></h4>
             <form class="form-horizontal" action="/action_page.php">
@@ -216,13 +221,38 @@
             </div>
             <h3><b><center>ENGINEERING DETAILS</center></b></h3>
             <div class="form-group">
+            	<label class="control-label col-sm-2" for="branch">Branch:</label>
+                            <div class="col-sm-8"> 
+                                    <input type="radio" id="branchChoice1" name="branch" value="Computer science and Engineering">
+                                    <label for="branchChoice1">Computer SCience and Engineering</label>
+                                    <br>
+                                    <input type="radio" id="branchChoice2" name="branch" value="Information Science">
+                                    <label for="branchChoice2">Information Science</label>
+                                    <br>
+                                    <input type="radio" id="branchChoice3" name="branch" value="Electronics and Communication Engineering">
+                                    <label for="branchChoice3">Electronics and Electrical Engineering</label>
+                                    <br>
+                                    <input type="radio" id="branchChoice4" name="branch" value="Electronics and Electrical Engineering">
+                                    <label for="branchChoice4">Electronics and Electrical Engineering</label>
+                                    <br>
+                                    <input type="radio" id="branchChoice5" name="branch" value="Mechanical Engineering">
+                                    <label for="branchChoice5">Mechanical Engineeirng</label>
+                                    <br>
+                                    <input type="radio" id="branchChoice6" name="branch" value="Industrial Production Engineering">
+                                    <label for="branchChoice6">Industrial Production Engineering</label>
+                                    <br>
+                                    <input type="radio" id="branchChoice7" name="branch" value="Civil Engineering">
+                                    <label for="branchChoice7">Civil Engineering</label>
+                            </div>
+            </div>                
+            <div class="form-group">
                     <label class="control-label col-sm-2" for="addr">1st Sem SGPA:</label>
                             <div class="col-sm-2"> 
                                     <input type="sem1" class="form-control" id="sem1" placeholder="Enter 1st Sem SGPA">
                             </div>
-                            <label class="control-label col-sm-2" for="addr">1st Sem Percentage:</label>
+                            <label class="control-label col-sm-2" for="addr">1st Sem Credits Obtained:</label>
                             <div class="col-sm-2"> 
-                                    <input type="sem1per" class="form-control" id="sem1per" placeholder="Enter 1st Sem Percentage">
+                                    <input type="sem1per" class="form-control" id="sem1cred" placeholder="Enter 1st Sem Credits Obtained">
                             </div>
             </div>
             <div class="form-group">
@@ -230,9 +260,9 @@
                             <div class="col-sm-2"> 
                                     <input type="sem2" class="form-control" id="sem2" placeholder="Enter 2nd Sem SGPA">
                             </div>
-                            <label class="control-label col-sm-2" for="addr">2nd Sem Percentage:</label>
+                            <label class="control-label col-sm-2" for="addr">2nd Sem Credits Obtained:</label>
                             <div class="col-sm-2"> 
-                                    <input type="sem2per" class="form-control" id="sem2per" placeholder="Enter 2nd Sem Percentage">
+                                    <input type="sem2cred" class="form-control" id="sem2cred" placeholder="Enter 2nd Sem Credits Obtained">
                             </div>
             </div>
             <div class="form-group">
@@ -240,9 +270,9 @@
                             <div class="col-sm-2"> 
                                     <input type="sem3" class="form-control" id="sem3" placeholder="Enter 3rd Sem SGPA">
                             </div>
-                            <label class="control-label col-sm-2" for="addr">3rd Sem Percentage:</label>
+                            <label class="control-label col-sm-2" for="addr">3rd Sem Credits Obtained:</label>
                             <div class="col-sm-2"> 
-                                    <input type="sem3per" class="form-control" id="sem3per" placeholder="Enter 3rd Sem Percentage">
+                                    <input type="sem3cred" class="form-control" id="sem3cred" placeholder="Enter 3rd Sem Credits Obtained">
                             </div>
             </div>
             <div class="form-group">
@@ -250,9 +280,9 @@
                             <div class="col-sm-2"> 
                                     <input type="sem4" class="form-control" id="sem4" placeholder="Enter 4th Sem SGPA">
                             </div>
-                            <label class="control-label col-sm-2" for="addr">1st Sem Percentage:</label>
+                            <label class="control-label col-sm-2" for="addr">4th Sem Credits Obtained:</label>
                             <div class="col-sm-2"> 
-                                    <input type="sem4per" class="form-control" id="sem4per" placeholder="Enter 4th Sem Percentage">
+                                    <input type="sem4cred" class="form-control" id="sem4cred" placeholder="Enter 4th Sem Credits Obtained">
                             </div>
             </div>
             <div class="form-group">
@@ -260,9 +290,9 @@
                             <div class="col-sm-2"> 
                                     <input type="sem5" class="form-control" id="sem5" placeholder="Enter 5th Sem SGPA">
                             </div>
-                            <label class="control-label col-sm-2" for="addr">5th Sem Percentage:</label>
+                            <label class="control-label col-sm-2" for="addr">5th Sem Credits Obtained:</label>
                             <div class="col-sm-2"> 
-                                    <input type="sem5per" class="form-control" id="sem5per" placeholder="Enter 5th Sem Percentage">
+                                    <input type="sem5cred" class="form-control" id="sem5cred" placeholder="Enter 5th Sem Credits Obtained">
                             </div>
             </div>
             <div class="form-group">
@@ -270,9 +300,9 @@
                             <div class="col-sm-2"> 
                                     <input type="sem6" class="form-control" id="sem6" placeholder="Enter 6th Sem SGPA">
                             </div>
-                            <label class="control-label col-sm-2" for="addr">6th Sem Percentage:</label>
+                            <label class="control-label col-sm-2" for="addr">6th Sem Credits Obtained:</label>
                             <div class="col-sm-2"> 
-                                    <input type="sem6per" class="form-control" id="sem6per" placeholder="Enter 6th Sem Percentage">
+                                    <input type="sem6cred" class="form-control" id="sem6cred" placeholder="Enter 6th Sem Credits Obtained">
                             </div>
             </div>
             <div class="form-group">
@@ -280,9 +310,9 @@
                             <div class="col-sm-2"> 
                                     <input type="sem7" class="form-control" id="sem7" placeholder="Enter 7th Sem SGPA">
                             </div>
-                            <label class="control-label col-sm-2" for="addr">7th Sem Percentage:</label>
+                            <label class="control-label col-sm-2" for="addr">7th Sem Credits Obtained:</label>
                             <div class="col-sm-2"> 
-                                    <input type="sem7per" class="form-control" id="sem7per" placeholder="Enter 7th Sem Percentage">
+                                    <input type="sem7cred" class="form-control" id="sem7cred" placeholder="Enter 7th Sem Credits Obtained">
                             </div>
             </div>
             <div class="form-group">
@@ -319,6 +349,13 @@
                                     <input type="clar" class="form-control" id="clar" placeholder="Enter Cleared Arrears">
                             </div>
             </div>
-           
-
+             <div class="form-group">
+            <div class="col-sm-2"></div>
+            <div class="col-sm-8">
+           		<button type="submit" class="btn btn-default">Submit</button>
+           	</div>
+           </div> 	
+           	</form>	
     </div>       
+</body>
+</html>
